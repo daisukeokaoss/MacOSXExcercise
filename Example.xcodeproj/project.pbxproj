@@ -18,6 +18,7 @@
 		C9773576199E1444002B9B68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9773555199E1444002B9B68 /* Cocoa.framework */; };
 		C977357E199E1444002B9B68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C977357C199E1444002B9B68 /* InfoPlist.strings */; };
 		C9773580199E1444002B9B68 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C977357F199E1444002B9B68 /* ExampleTests.m */; };
+		C977358B199E1954002B9B68 /* FuseBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C977358A199E1954002B9B68 /* FuseBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C977357B199E1444002B9B68 /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C977357D199E1444002B9B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C977357F199E1444002B9B68 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		C9773589199E1954002B9B68 /* FuseBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuseBox.h; sourceTree = "<group>"; };
+		C977358A199E1954002B9B68 /* FuseBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuseBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				C9773567199E1444002B9B68 /* InAppPurchaseAppDelegate.h */,
 				C9773568199E1444002B9B68 /* InAppPurchaseAppDelegate.m */,
 				C977356A199E1444002B9B68 /* MainMenu.xib */,
+				C9773589199E1954002B9B68 /* FuseBox.h */,
+				C977358A199E1954002B9B68 /* FuseBox.m */,
 				C977356D199E1444002B9B68 /* Images.xcassets */,
 				C977355C199E1444002B9B68 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C977358B199E1954002B9B68 /* FuseBox.m in Sources */,
 				C9773569199E1444002B9B68 /* InAppPurchaseAppDelegate.m in Sources */,
 				C9773562199E1444002B9B68 /* main.m in Sources */,
 			);
