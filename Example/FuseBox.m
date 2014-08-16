@@ -10,4 +10,13 @@
 
 @implementation FuseBox
 
+-(IBAction)caliculateAnswer:(id)sender
+{
+    int num1,num2,answer;
+    num1 = [numberField1 intValue];
+    num2 = [numberField2 intValue];
+    answer = num1 + num2;
+    [answerField setIntValue:answer];
+}
+
 @end
