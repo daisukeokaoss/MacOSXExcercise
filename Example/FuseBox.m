@@ -12,11 +12,12 @@
 
 -(IBAction)caliculateAnswer:(id)sender
 {
-    int num1,num2,answer;
-    num1 = [numberField1 intValue];
-    num2 = [numberField2 intValue];
+    float num1,num2,answer;
+    num1 = [numberField1 floatValue];
+    num2 = [numberField2 floatValue];
     answer = num1 + num2;
-    [answerField setIntValue:answer];
+    //[answerField setIntValue:answer];
+    [answerField setFloatValue:answer];
 }
 
 @end
